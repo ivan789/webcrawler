@@ -1,0 +1,115 @@
+
+body {
+    background-image: url('eee.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+    color: black;
+    text-align: center;
+
+}
+
+
+p, a {
+    font-family: 'Timesnewroman';
+    color: black;
+    text-align: center;
+
+}
+
+
+button {
+    position: relative;
+    background-color:#e6eeff;
+    border: none;
+    font-size: 12px;
+    color: #002880;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button:after {
+    content: "";
+    background:#e0ccff;
+    display: block;
+    position: absolute;
+    padding-top: 80%;
+    padding-left: 85%;
+    margin-left: -10px !important;
+    margin-top: -10%;
+    opacity: 0;
+    transition: all 0.8s
+
+}
+
+button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+disabled {
+    opacity: 0.9;
+    cursor: not-allowed;
+}
+button:active {
+  background-color: #ffcc80;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+button:hover {background-color: #0051ff}
+
+
+
+
+input {
+    position: relative;
+    background-color:#e6eeff;
+    border: none;
+    font-size: 12px;
+    color: #002880;
+
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+input:after {
+    content: "";
+    background:#e0ccff;
+    display: block;
+    position: absolute;
+
+    opacity: 0;
+    transition: all 0.8s
+
+}
+
+input:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+disabled {
+    opacity: 0.9;
+    cursor: not-allowed;
+}
+input:active {
+  background-color: #ffcc80;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+input:hover {background-color: #0051ff}

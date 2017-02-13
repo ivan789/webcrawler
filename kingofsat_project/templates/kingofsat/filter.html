@@ -1,0 +1,108 @@
+{% load staticfiles %}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="{% static 'css/kingofsat.css' %}">
+
+    <nav>
+        <ul>
+            <li ><a href="{% url 'index' %}">Home</a></li>
+
+        </ul>
+    </nav>
+
+
+
+<p>You can download this table.</p>
+<form method="POST" action="">
+      {% csrf_token %}
+        {{ form }}
+<input type="submit" name="download" value="Download" />
+</form>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("table").hide();
+    });
+    $("#show").click(function(){
+        $("table").show();
+});
+});
+</script>
+<button id="hide">Sakrij</button>
+<button id="show">Prikazi</button>
+</br>
+<p>This table contain most only this satelits: Hot Bird 13.0°E, Eutelsat 16A, Astra 19.2°E</p>
+<style>
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+th, td {
+    padding: 2px;
+    text-align: center;
+    font-size:8pt;
+}
+table#t01 tr:nth-child(even) {
+    background-color:#ffd699;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#ffebcc;
+}
+table#t01 th {
+    background-color: #331f00;
+    color: white;
+}
+</style>
+
+
+<table id="t01">
+
+    <tr>
+        <th>channel</th>
+        <th>satelit</th>
+        <th>polarisation</th>
+        <th>degrees</th>
+        <th>frequency</th>
+        <th>Service id</th>
+        <th>package</th>
+        <th>DVB type</th>
+        <th>modulation</th>
+        <th>symbol_rate</th>
+        <th>fec</th>
+        <th>tid</th>
+        <th>onid</th>
+        <th>encryption</th>
+        <th>type</th>
+    </tr>
+    <tr>
+{% for x in filter_lista %}
+        <td>{{ x.kanal }}</td>
+        <td>{{ x.satelit }}</td>
+        <td>{{ x.polarizacija }}</td>
+        <td>{{ x.stupnjevi }}</td>
+        <td>{{ x.frekvencija }}</td>
+        <td>{{ x.sid }}</td>
+        <td>{{ x.paket }}</td>
+        <td>{{ x.dvb }}</td>
+        <td>{{ x.modulacija }}</td>
+        <td>{{ x.symbol_rate }}</td>
+        <td>{{ x.fec }}</td>
+        <td>{{ x.tid }}</td>
+        <td>{{ x.onid }}</td>
+        <td>{{ x.enkripcija }}</td>
+        <td>{{ x.tip }}</td>
+
+
+    </tr>
+
+{% endfor %}
+</table>
+
+

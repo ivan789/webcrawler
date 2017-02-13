@@ -1,0 +1,15 @@
+{% load staticfiles %}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>django</title>
+
+
+<link rel="stylesheet" href="{% static 'css/kingofsat.css' %}">
+
+    <h1>Sad sam na Post pageu</h1>
+
+    <form method="POST" action="/post/channel/">
+      {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Submit" />
+    </form>

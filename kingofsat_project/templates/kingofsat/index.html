@@ -1,0 +1,125 @@
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'css/kingofsat.css' %}">
+   <body>
+    <head>
+
+        <title>Kingofsat</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+		<link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    </head>
+
+<div>
+    <h1>KINGOFSAT    PARSER</h1>
+
+
+
+
+<form action="{% url 'kingofsat' %}">
+<button>Pokretanje parsera</button>
+</form>
+<form action="{% url 'list' %}">
+<button>Upload</button>
+</form>
+
+
+
+
+<form action="{% url 'datatable' %}">
+<button>Search table</button>
+</form>
+
+    <h4>Kingofsat table</h4>
+       <strong><p>Ovo je kingofsat web crawler, alat napravljen radi lakšeg i preciznijeg pretraživanja kanala, naročito kada se radi o velikom broju kanala. Kreirate fajl list.txt i u njega napunite kanale koje želite pretraživati (pri tome pazite da je svaki novi kanal napisan u novoj liniji fajla tj. novi redak), nakon toga jednostavno napravite upload vašeg fajla na server i pritisnete gumb scanner i Vaša lista je kreirana, možete skiniti excel tablicu ili pak pretraživati Vaše kanale u tablici na serveru.</p></strong>
+
+
+
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("table").hide();
+    });
+    $("#show").click(function(){
+        $("table").show();
+    });
+});
+</script>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+<style>
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+th, td {
+    padding: 2px;
+    text-align: center;
+    font-size:8pt;
+}
+table#t01 tr:nth-child(even) {
+    background-color:#ffd699;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#ffebcc;
+}
+table#t01 th {
+    background-color: #331f00;
+    color: white;
+}
+</style>
+
+</br></br>
+<table id="t01", ng-show="show">
+
+    <tr>
+        <th>channel</th>
+        <th>satelit</th>
+        <th>polarization</th>
+        <th>degrees</th>
+        <th>frequency</th>
+        <th>sid</th>
+        <th>package</th>
+        <th>dvb</th>
+        <th>modulation</th>
+        <th>symbol_rate</th>
+        <th>fec</th>
+        <th>tid</th>
+        <th>onid</th>
+        <th>encription</th>
+        <th>type</th>
+    </tr>
+    <tr>
+{% for x in lista_za_ispis %}
+        <td>{{ x.kanal }}</td>
+        <td>{{ x.satelit }}</td>
+        <td>{{ x.polarizacija }}</td>
+        <td>{{ x.stupnjevi }}</td>
+        <td>{{ x.frekvencija }}</td>
+        <td>{{ x.sid }}</td>
+        <td>{{ x.paket }}</td>
+        <td>{{ x.dvb }}</td>
+        <td>{{ x.modulacija }}</td>
+        <td>{{ x.symbol_rate }}</td>
+        <td>{{ x.fec }}</td>
+        <td>{{ x.tid }}</td>
+        <td>{{ x.onid }}</td>
+        <td>{{ x.enkripcija }}</td>
+        <td>{{ x.tip }}</td>
+
+
+    </tr>
+
+{% endfor %}
+</table>
+</body>

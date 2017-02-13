@@ -1,0 +1,40 @@
+{% load staticfiles %}
+
+<title>kingofsat parser</title>
+
+
+<link rel="stylesheet" href="{% static 'css/kingofsat.css' %}">
+
+    <nav>
+        <ul>
+            <li ><a href="{% url 'index' %}">Home</a></li>
+
+        </ul>
+    </nav>
+		<!-- List of uploaded documents
+		{% if documents %}
+			<ul>
+			{% for document in documents %}
+				<li><a href="{{ document.docfile.url }}">{{ document.docfile.name }}</a></li>
+			{% endfor %}
+			</ul>
+		{% else %}
+			<p>No documents.</p>
+		{% endif %}-->
+
+		<!-- Upload form. Note enctype attribute! -->
+	</br></br>
+		<p>Upload your list with channels, so that the list contains a new channel for each line, please save your list as <strong>list.txt</strong></p>
+
+
+		<form action="{% url "list" %}" method="post" enctype="multipart/form-data"  >
+			{% csrf_token %}
+			<p>{{ form.non_field_errors }}</p>
+			<p>{{ form.docfile.label_tag }} {{ form.docfile.help_text }}</p>
+			<p>
+				{{ form.docfile.errors }}
+				{{ form.docfile }}
+			</p>
+			<p><input type="submit" value="Upload"/></p>
+		
+		</form>

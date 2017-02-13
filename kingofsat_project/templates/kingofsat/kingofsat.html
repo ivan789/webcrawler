@@ -1,0 +1,108 @@
+{% load staticfiles %}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>parser</title>
+
+<link rel="stylesheet" href="{% static 'css/kingofsat.css' %}">
+
+
+    <nav>
+        <ul>
+            <li ><a href="{% url 'index' %}">home</a></li>
+        </ul>
+    </nav>
+
+<h4>Scanner</h4>
+<p>Press scanner button to scann you channel list.</p>
+<script type="text/javascript">
+var ray={
+ajax:function(st)
+	{
+		this.show('load');
+	},
+show:function(el)
+	{
+		this.getID(el).style.display='';
+	},
+getID:function(el)
+	{
+		return document.getElementById(el);
+	}
+}
+</script>
+<style type="text/css">
+#load{
+position:absolute;
+z-index:1;
+border:3px double #999;
+background:#f2f2f2;
+width:450px;
+height:300px;
+margin-top:-150px;
+margin-left:-200px;
+top:50%;
+left:50%;
+text-align:center;
+line-height:300px;
+font-family:"Trebuchet MS", verdana, arial,tahoma;
+font-size:18pt;
+}
+</style>
+<div id="load" style="display:none;">Loading ... please wait</div>
+
+
+
+<form method="POST" action="kingofsat"  method="post" onsubmit="return ray.ajax()">
+      {% csrf_token %}
+        {{ form }}
+<p><input type="submit" name="mybtn" value="Scanner"/></p>
+</form>
+
+
+<p>You can download your excel file.</p>
+<form method="POST" action="kingofsat">
+      {% csrf_token %}
+        {{ form }}
+<p><input type="submit" name="download" value="Download" /></p>
+</form>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
