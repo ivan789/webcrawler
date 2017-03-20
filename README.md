@@ -14,3 +14,5 @@ Web crawler simply get all parameters of tv and radio channels, and results are 
 Simply put yout list in "list.txt" with your tv or radio channel (each channel new line) and run the parser.
 
 This web crawler is writen in Python and Django.
+You can see this web crawler in demo version:
+* http://applicationfree.net:3000/
