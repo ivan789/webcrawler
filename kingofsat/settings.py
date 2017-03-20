@@ -27,7 +27,7 @@ SECRET_KEY = 'lbka8xkkog6xlj+6zub8k73p!1_$u62kuc9nt5!75!xd%*d&-k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['applicationfree.net', 'localhost']
+ALLOWED_HOSTS = ['applicationfree.net', 'localhost', '88.198.72']
 
 
 # Application definition
@@ -58,22 +58,20 @@ MIDDLEWARE_CLASSES = [
 ROOT_URLCONF = 'kingofsat.urls'
 
 TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-                'django.core.context_processors.request',
-            ],
-        },
+{
+    'BACKEND': 'django.template.backends.django.DjangoTemplates',
+    'DIRS': [os.path.join(BASE_DIR, 'templates')],
+    'APP_DIRS': True,
+    'OPTIONS': {
+        'context_processors': [
+            'django.template.context_processors.debug',
+            'django.template.context_processors.request',
+            'django.contrib.auth.context_processors.auth',
+            'django.contrib.messages.context_processors.messages',
+        ],
     },
+},
 ]
-
 WSGI_APPLICATION = 'kingofsat.wsgi.application'
 
 

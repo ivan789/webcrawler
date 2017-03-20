@@ -1,4 +1,4 @@
-#--coding: utf-8 --
+
 from django.conf.urls import url, include
 
 from views import scaner, post_kingofsat, channel_post, channel_list, list, filterview, simple_list, dataTabs

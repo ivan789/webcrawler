@@ -25,12 +25,16 @@ import mimetypes
 from django_tables2 import RequestConfig
 
 
-
+''' Ovaj Django view prima korinicki fajl, te poziva skriptu koja radi parsanje zeljenog HTML-a,
+    ovaj view takodjer servira i CSV i ispisuje parsane rezultate na frontend, takodjer generira
+    django search tables tables, radi lakseg pretrazivanja rezultata dobivenih iz web crawlera!
+        
+'''
 def scaner(request):
     if (request.POST.get('mybtn')):
 
         kingofsatTabs.objects.all().delete()
-        os.system("python prezadnji_latest_version.py /home/KingofsatCrawler/kroler_kingofsat/kingofsat/list.txt")
+        os.system("python main.py /home/KingofsatCrawler/kroler_kingofsat/kingofsat/list.txt")
         with open('outfile.csv', 'r') as f:
             #reader = csv.reader(f)
             next(f)
@@ -57,11 +61,11 @@ def scaner(request):
                     tmp.tip = line[14]
                     tmp.save()
                 except IOError:
-                    print "Oops! Naletio sam na error, zajebo si u upload listi nesto!"
+                    print "Oops!"
 
         f.close()
     if (request.POST.get('download')):
-        print 'Konj'
+       
         filename = "/home/KingofsatCrawler/kroler_kingofsat/kingofsat/outfile.csv"
         download_name ="kingofsat.csv"
         wrapper      = FileWrapper(open(filename))
@@ -209,4 +213,3 @@ def dataTabs(request):
     queryset = kingofsatTabs.objects.all()
     postdata = searchtable(queryset)
     return render(request, "datatable.html", {'postdata': postdata})
-

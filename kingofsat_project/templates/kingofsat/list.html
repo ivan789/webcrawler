@@ -4,7 +4,17 @@
 
 
 <link rel="stylesheet" href="{% static 'css/kingofsat.css' %}">
+<style type="text/css">
+    body{
 
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: 1;
+        }
+
+
+</style>
     <nav>
         <ul>
             <li ><a href="{% url 'index' %}">Home</a></li>
@@ -27,8 +37,8 @@
 		<p>Upload your list with channels, so that the list contains a new channel for each line, please save your list as <strong>list.txt</strong></p>
 
 
-		<form action="{% url "list" %}" method="post" enctype="multipart/form-data"  >
-			{% csrf_token %}
+	<form action="{% url "list" %}" method="post" enctype="multipart/form-data"  >
+                        {% csrf_token %}
 			<p>{{ form.non_field_errors }}</p>
 			<p>{{ form.docfile.label_tag }} {{ form.docfile.help_text }}</p>
 			<p>

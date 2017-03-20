@@ -1,0 +1,102 @@
+KANAL;SATELIT;POLARIZACIJA;STUPNJEVI;FREKVENCIJA;SID;PAKET;DVB;MODULACIJA;SYMBOL_RATE;FEC;TID;ONID;ENKRIPCIJA;TIP
+HRT 1;Eutelsat 16A;H;16.0°E;10720.00;901;OiV Zagreb;DVB-S;QPSK;"""3/4""";27500;TID:20100;NID:366;ClearViaccess 2.5Viaccess 3.0;tv
+HRT 1;Eutelsat 16A;V;16.0°E;11554.00;1801;Direct2Home;DVB-S2;8PSK;"""5/6""";30000;TID:50600;NID:366;Conax;tv
+HRT 3;Eutelsat 16A;H;16.0°E;11678.25;198;Max TV;DVB-S2;8PSK;"""3/4""";30000;TID:3;NID:64;Nagravision 3;tv
+HRT 4;Eutelsat 16A;V;16.0°E;11554.00;1842;Direct2Home;DVB-S2;8PSK;"""5/6""";30000;TID:50600;NID:366;Conax;tv
+HRT 3;Eutelsat 16A;H;16.0°E;10720.00;903;OiV Zagreb;DVB-S;QPSK;"""3/4""";27500;TID:20100;NID:366;Viaccess 2.5Viaccess 3.0;tv
+HRT 1;Eutelsat 16A;H;16.0°E;11470.75;861;Total TV;DVB-S2;8PSK;"""3/4""";30000;TID:50100;NID:366;VideoGuard;tv
+HRT Akdeniz (Hatay);Turksat 3A;H;42.0°E;12515.00;51900; ;DVB-S;QPSK;"""2/3""";11666;TID:31301;NID:1070;Clear;tv
+HRT 2;Eutelsat 16A;V;16.0°E;11554.00;1802;Direct2Home;DVB-S2;8PSK;"""5/6""";30000;TID:50600;NID:366;Conax;tv
+HRT 1;Eutelsat 16A;H;16.0°E;11595.25;295;Max TV;DVB-S2;8PSK;"""3/4""";30000;TID:2;NID:64;Nagravision 3;tv
+HRT 2;Eutelsat 16A;H;16.0°E;11470.75;862;Total TV;DVB-S2;8PSK;"""3/4""";30000;TID:50100;NID:366;VideoGuard;tv
+HRT R-Pula (radio);Eutelsat 16A;H;16.0°E;10720.00;909;OiV Zagreb;DVB-S;QPSK;"""3/4""";27500;TID:20100;NID:366;Clear;radio
+HRT 2;Eutelsat 16A;H;16.0°E;10720.00;902;OiV Zagreb;DVB-S;QPSK;"""3/4""";27500;TID:20100;NID:366;Viaccess 2.5Viaccess 3.0;tv
+HRT 4;Eutelsat 16A;H;16.0°E;10720.00;904;OiV Zagreb;DVB-S;QPSK;"""3/4""";27500;TID:20100;NID:366;ClearViaccess 2.5Viaccess 3.0;tv
+HRT 3;Eutelsat 16A;V;16.0°E;11554.00;1812;Direct2Home;DVB-S2;8PSK;"""5/6""";30000;TID:50600;NID:366;Conax;tv
+HRT 2;Eutelsat 16A;H;16.0°E;11678.25;296;Max TV;DVB-S2;8PSK;"""3/4""";30000;TID:3;NID:64;Nagravision 3;tv
+Fashion TV  ;Eutelsat 16A;V;16.0°E;11595.25;952;Antik Sat;DVB-S2;8PSK;"""5/6""";30000;TID:50800;NID:366;Conax;tv
+Future USA;Badr 4;H;26.0°E;12698.00;1;FTV;DVB-S2;8PSK;"""3/4""";3200;TID:2;NID:65535;Clear;tv
+FTV HD;Nilesat 201;H;7.0°W;12073.00;4501;Orbit Showtime Network;DVB-S2;8PSK;"""2/3""";30000;TID:45;NID:2048;BetaCryptIrdeto 2;tv
+Fashion TV  ;Hispasat 30W-5;H;30.0°W;12207.00;361;Nos;DVB-S2;8PSK;"""3/4""";27500;TID:103;NID:83;Nagravision 3;tv
+RTL Klub HD;Astra 5B;V;31.5°E;12402.00;8516;Orange Romania;DVB-S2;8PSK;"""3/4""";30000;TID:5236;NID:167;Viaccess 5.0;tv
+RTL TVI HD;Hot Bird 13C;H;13.0°E;10930.00;16913;MobistarTeleSat;DVB-S2;8PSK;"""2/3""";30000;TID:12100;NID:318;Mediaguard 3Nagravision 3Viaccess 5.0;tv
+RTL 2 HD;Eutelsat 9B;H;9.0°E;12015.00;417;KabelkioskSky Deutschland;DVB-S2;8PSK;"""2/3""";27500;TID:6500;NID:156;ConaxVideoGuard;tv
+RTL 2 Croatia  ;Eutelsat 16A;H;16.0°E;11386.75;1660;Total TV;DVB-S2;8PSK;"""3/5""";30000;TID:40900;NID:366;VideoGuard;tv
+RTL Crime (Croatia);Eutelsat 16A;H;16.0°E;11595.25;192;Max TV;DVB-S2;8PSK;"""3/4""";30000;TID:2;NID:64;Nagravision 3;tv
+RTL Italian Style (radio);Hot Bird 13E;V;13.0°E;11623.00;10755;GLOBECAST;DVB-S;QPSK;"""3/4""";27500;TID:15600;NID:318;Clear;radio
+RTL 8 HD;Astra 3B;V;23.5°E;11856.00;7036;Canal Digitaal;DVB-S2;8PSK;"""2/3""";29900;TID:3208;NID:3;Mediaguard 3Nagravision 3Viaccess 5.0;tv
+Super RTL HD;Astra 1N;H;19.2°E;11082.25;11931;HD +;DVB-S2;8PSK;"""3/4""";22000;TID:1041;NID:1;Nagravision 3VideoGuard;tv
+RTL 2 Croatia  ;Eutelsat 16A;H;16.0°E;11678.25;293;Max TV;DVB-S2;8PSK;"""3/4""";30000;TID:3;NID:64;ConaxNagravision 3;tv
+RTL 2 Schweiz  ;Astra 1KR;H;19.2°E;11391.25;12400;BetaDigital;DVB-S;QPSK;"""5/6""";22000;TID:1013;NID:1;Clear;tv
+RTL Klub  ;Thor 6;V;0.8°W;11766.00;30209;Digi TVFocus SatUPC Direct;DVB-S;QPSK;"""7/8""";28000;TID:702;NID:1536;ConaxCryptoworksIrdeto 2Nagravision 3;tv
+RTL 9  ;Eutelsat 36B;H;36.0°E;11823.00;806;Multichoice Africa;DVB-S;QPSK;"""3/4""";27500;TID:65408;NID:878;Irdeto 2;tv
+RTL Best (radio);Hot Bird 13E;V;13.0°E;11623.00;10757;GLOBECAST;DVB-S;QPSK;"""3/4""";27500;TID:15600;NID:318;Clear;radio
+RTL International (data);NSS 7;H;20.0°W;12566.00;112; ;DVB-S2;QPSK;"""2/3""";2083;TID:101;NID:1;Clear;data
+RTL (radio);Astra 1N;V;19.2°E;12363.00;9165;CanalSat;DVB-S;QPSK;"""3/4""";27500;TID:1098;NID:1;Clear;radio
+RTL Nitro HD;Eutelsat 9B;H;9.0°E;12245.00;306;KabelkioskSky Deutschland;DVB-S2;8PSK;"""2/3""";27500;TID:7900;NID:156;ConaxVideoGuard;tv
+RTL HD Österreich;Astra 1N;H;19.2°E;11082.25;11911;Austriasat;DVB-S2;8PSK;"""3/4""";22000;TID:1041;NID:1;Irdeto 2Viaccess 5.0VideoGuard;tv
+RTL 4 HD;Astra 3B;V;23.5°E;11856.00;7020;Canal Digitaal;DVB-S2;8PSK;"""2/3""";29900;TID:3208;NID:3;Mediaguard 3Nagravision 3Viaccess 5.0;tv
+RTL Passion;Eutelsat 16A;H;16.0°E;11595.25;166;Max TV;DVB-S2;8PSK;"""3/4""";30000;TID:2;NID:64;Nagravision 3;tv
+RTL Nitro  ;Astra 1L;H;19.2°E;12187.50;12061;CBC;DVB-S;QPSK;"""3/4""";27500;TID:1089;NID:1;Clear;tv
+RTL Crime;Astra 1N;H;19.2°E;12031.50;27;KabelkioskSky Deutschland;DVB-S2;QPSK;"""9/10""";27500;TID:4;NID:133;VideoGuard;tv
+Plug RTL;Hot Bird 13C;H;13.0°E;10930.00;16915;MobistarTV Vlaanderen;DVB-S2;8PSK;"""2/3""";30000;TID:12100;NID:318;Mediaguard 3Nagravision 3Viaccess 5.0;tv
+RTL Living Croatia;Eutelsat 16A;V;16.0°E;11554.00;1832;Direct2Home;DVB-S2;8PSK;"""5/6""";30000;TID:50600;NID:366;Conax;tv
+RTL (radio);Eutelsat 5 West A;H;5.0°W;11480.00;1100;FM-DVB TDF TFL;DVB-S2;8PSK;"""3/4""";3215;TID:10001;NID:144;Clear;radio
+RTL 2 Österreich  ;Astra 1L;H;19.2°E;12226.50;28810;RTL;DVB-S;QPSK;"""3/4""";27500;TID:1091;NID:1;Clear;tv
+RTL HD;Eutelsat 9B;H;9.0°E;12245.00;301;KabelkioskSky Deutschland;DVB-S2;8PSK;"""2/3""";27500;TID:7900;NID:156;ConaxVideoGuard;tv
+RTL 102.5  ;Eutelsat 12 West B;H;12.5°W;12718.00;21;Persidera;DVB-S2;;"""5/6""";36512;TID:516;NID:29;Clear;tv
+RTL 5 HD;Astra 3B;V;23.5°E;11856.00;7023;Canal Digitaal;DVB-S2;8PSK;"""2/3""";29900;TID:3208;NID:3;Mediaguard 3Nagravision 3Viaccess 5.0;tv
+RTL 102.5  ;Hot Bird 13B;V;13.0°E;12149.00;3642;M-Three satcom;DVB-S;QPSK;"""3/4""";27500;TID:7200;NID:318;Clear;tv
+RTL Crime HD;Astra 1KR;H;19.2°E;11170.75;140;Sky Deutschland;DVB-S2;8PSK;"""3/4""";22000;TID:9;NID:133;VideoGuard;tv
+RTL Klub HD;Thor 6;V;0.8°W;12034.00;30504;Digi TVFocus SatUPC Direct;DVB-S2;8PSK;"""3/4""";30000;TID:705;NID:1536;ConaxCryptoworksIrdeto 2Nagravision 3;tv
+RTL 2 Hungary;Amos 3;V;4.0°W;10723.00;17;T-Home;DVB-S2;8PSK;"""2/3""";30000;TID:1;NID:100;Conax;tv
+RTL Radio Letzebuerg (radio);Astra 3B;V;23.5°E;12168.00;5245;SES ASTRA;DVB-S;QPSK;"""3/4""";27500;TID:3224;NID:3;Clear;radio
+RTL Tele Letzebuerg  ;Astra 3B;V;23.5°E;12168.00;5240;SES ASTRA;DVB-S;QPSK;"""3/4""";27500;TID:3224;NID:3;Clear;tv
+Super RTL  ;Astra 1L;H;19.2°E;12187.50;12040;CBC;DVB-S;QPSK;"""3/4""";27500;TID:1089;NID:1;Clear;tv
+RTL 2 HD Österreich;Astra 1N;H;19.2°E;11082.25;11941;Austriasat;DVB-S2;8PSK;"""3/4""";22000;TID:1041;NID:1;Irdeto 2Viaccess 5.0VideoGuard;tv
+RTL RADIO (radio);Astra 1N;H;19.2°E;12603.75;7931; ;DVB-S;QPSK;"""5/6""";22000;TID:1111;NID:1;Clear;radio
+RTL 2 HD;Astra 1KR;H;19.2°E;10832.25;61205;HD +Sky Deutschland;DVB-S2;8PSK;"""2/3""";22000;TID:1057;NID:1;Nagravision 3VideoGuard;tv
+RTL Klub  ;Intelsat 10-02;H;0.8°W;12643.00;1510;Digi TV;DVB-S;QPSK;"""3/4""";27500;TID:3;NID:1;ConaxNagravision 3;tv
+RTL 102.5 (radio);Hot Bird 13B;V;13.0°E;11541.03;3642;M-Three satcom;DVB-S;QPSK;"""5/6""";22000;TID:1800;NID:200;Clear;radio
+RTL 7 HD;Astra 3B;V;23.5°E;11856.00;7027;Canal Digitaal;DVB-S2;8PSK;"""2/3""";29900;TID:3208;NID:3;Mediaguard 3Nagravision 3Viaccess 5.0;tv
+RTL Nordrhein Westfalen  18h-18h30 CET 18h-18h30 CET;Astra 1L;H;19.2°E;12187.50;12004;CBC;DVB-S;QPSK;"""3/4""";27500;TID:1089;NID:1;Clear;tv
+RTL Living  ;Astra 1N;H;19.2°E;11082.25;11971;Sky Deutschland;DVB-S2;8PSK;"""3/4""";22000;TID:1041;NID:1;VideoGuard;tv
+RTL 2 Hungary;Thor 6;V;0.8°W;12111.00;31212;Digi TVFocus SatUPC Direct;DVB-S;QPSK;"""7/8""";28000;TID:712;NID:1536;ConaxCryptoworksIrdeto 2Nagravision 3;tv
+RTL 102.5  ;Hot Bird 13E;V;13.0°E;11623.00;10704;GlobeCast;DVB-S;QPSK;"""3/4""";27500;TID:15600;NID:318;Clear;tv
+RTL Klub  ;Amos 3;V;4.0°W;10759.00;1201;T-Home;DVB-S2;8PSK;"""3/4""";30000;TID:2;NID:100;Conax;tv
+Club RTL;Hot Bird 13C;H;13.0°E;10930.00;16914;MobistarTV Vlaanderen;DVB-S2;8PSK;"""2/3""";30000;TID:12100;NID:318;Mediaguard 3Nagravision 3Viaccess 5.0;tv
+Super RTL Österreich  ;Astra 1L;H;19.2°E;12226.50;28815;RTL;DVB-S;QPSK;"""3/4""";27500;TID:1091;NID:1;Clear;tv
+RTL Nitro Austria  ;Astra 1N;H;19.2°E;12662.75;13102;RTL;DVB-S;QPSK;"""5/6""";22000;TID:1115;NID:1;Clear;tv
+RTL Kockica;Eutelsat 16A;H;16.0°E;11512.25;21;Max TV;DVB-S2;8PSK;"""3/4""";30000;TID:1;NID:64;ConaxNagravision 3;tv
+RTL 102.5 TV HD;Hot Bird 13E;H;13.0°E;11642.00;1307;M-Three satcom;DVB-S2;8PSK;"""3/4""";27500;TID:15700;NID:318;Clear;tv
+RTL Living Croatia;Eutelsat 16A;H;16.0°E;11512.25;20;Max TV;DVB-S2;8PSK;"""3/4""";30000;TID:1;NID:64;Nagravision 3;tv
+RTL 9  ;Eutelsat 5 West A;V;5.0°W;11512.00;201;Bis;DVB-S2;8PSK;"""3/4""";29950;TID:20200;NID:1375;Viaccess 4.0;tv
+RTL Spike;Amos 2;V;4.0°W;10925.50;1513;T-Home;DVB-S2;8PSK;"""3/4""";30000;TID:5;NID:100;Conax;tv
+Nordliicht TV  Sundays 13h-14h CET;Astra 3B;V;23.5°E;12168.00;5240;SES ASTRA;DVB-S;QPSK;"""3/4""";27500;TID:3224;NID:3;Clear;tv
+RTL 2 HD Hungary;Amos 3;V;4.0°W;10806.00;1408;T-Home;DVB-S2;8PSK;"""3/4""";30000;TID:4;NID:100;Conax;tv
+RTL GROOVE (radio);Hot Bird 13E;V;13.0°E;11623.00;10754;GLOBECAST;DVB-S;QPSK;"""3/4""";27500;TID:15600;NID:318;Clear;radio
+RTL HD;Astra 1KR;H;19.2°E;10832.25;61200;HD +Sky Deutschland;DVB-S2;8PSK;"""2/3""";22000;TID:1057;NID:1;Nagravision 3VideoGuard;tv
+RTL 102.5 (radio);Eutelsat 12 West B;H;12.5°W;12718.00;221;Persidera;DVB-S2;;"""5/6""";36512;TID:516;NID:29;Clear;radio
+RTL 2 Hungary;Astra 5B;V;31.5°E;12168.00;8713;Orange Romania;DVB-S2;8PSK;"""3/4""";30000;TID:5224;NID:167;Viaccess 5.0;tv
+RTL Hrvatska  ;Eutelsat 16A;H;16.0°E;11386.75;1659;Total TV;DVB-S2;8PSK;"""3/5""";30000;TID:40900;NID:366;VideoGuard;tv
+RTL 9 HD;Hot Bird 13C;H;13.0°E;12692.00;451;Bis;DVB-S2;8PSK;"""3/4""";27500;TID:9900;NID:319;Viaccess 4.0;tv
+RTL 102.5   (radio);Hot Bird 13B;V;13.0°E;12149.00;M-Three satcom;Italy;DVB-S;QPSK;"""3/4""";27500;TID:7200;NID:318;Music;radio
+RTL Klub  ;Hellas Sat 2;V;39.0°E;10971.00;275;Dolce TV;DVB-S;QPSK;"""7/8""";30000;TID:1;NID:28;VideoGuard;tv
+RTL Bremen & Land Niedersachsen   18h-18h30 CET;Astra 1L;H;19.2°E;12187.50;12005;CBC;DVB-S;QPSK;"""3/4""";27500;TID:1089;NID:1;Clear;tv
+RTL 9 HD;Astra 1N;V;19.2°E;12285.00;17035;BisCanalSatNC NuméricableOrange;DVB-S2;8PSK;"""2/3""";29700;TID:1094;NID:1;Mediaguard 3Nagravision 3Viaccess 3.0Viaccess 4.0;tv
+RTL Television  ;Astra 1L;H;19.2°E;12187.50;12003;CBC;DVB-S;QPSK;"""3/4""";27500;TID:1089;NID:1;Clear;tv
+Super RTL HD;Eutelsat 9B;H;9.0°E;12015.00;406;KabelkioskSky Deutschland;DVB-S2;8PSK;"""2/3""";27500;TID:6500;NID:156;ConaxVideoGuard;tv
+RTL Nitro HD;Astra 1N;H;19.2°E;11082.25;11951;HD +Sky Deutschland;DVB-S2;8PSK;"""3/4""";22000;TID:1041;NID:1;Nagravision 3VideoGuard;tv
+RTL 2  ;Astra 1L;H;19.2°E;12187.50;12020;CBC;DVB-S;QPSK;"""3/4""";27500;TID:1089;NID:1;Clear;tv
+RTL 2 Hungary;Hellas Sat 2;V;39.0°E;10971.00;270;Dolce TV;DVB-S;QPSK;"""7/8""";30000;TID:1;NID:28;BulCryptVideoGuard;tv
+RTL Lounge  ;Astra 3B;V;23.5°E;11856.00;7042;Canal Digitaal;DVB-S2;8PSK;"""2/3""";29900;TID:3208;NID:3;Mediaguard 3Nagravision 3Viaccess 5.0;tv
+RTL Television  ;Türksat 4A;V;42.0°E;11802.00;16107;Platformturk;DVB-S2;8PSK;"""3/4""";17500;TID:43103;NID:104;Irdeto 2;tv
+RTL Schweiz;Astra 1L;H;19.2°E;12226.50;28825;CBC;DVB-S;QPSK;"""3/4""";27500;TID:1091;NID:1;Clear;tv
+RTL Passion Germany;Astra 1N;H;19.2°E;12031.50;29;KabelkioskSky Deutschland;DVB-S2;QPSK;"""9/10""";27500;TID:4;NID:133;VideoGuard;tv
+RTL Z;Astra 3B;V;23.5°E;11856.00;7058;Canal Digitaal;DVB-S2;8PSK;"""2/3""";29900;TID:3208;NID:3;Mediaguard 3Nagravision 3Viaccess 5.0;tv
+RTL Österreich  ;Astra 1L;H;19.2°E;12226.50;28800;RTL;DVB-S;QPSK;"""3/4""";27500;TID:1091;NID:1;Clear;tv
+RTL 9  ;Badr 5;V;26.0°E;10810.00;603;MyHD;DVB-S2;8PSK;"""3/4""";27500;TID:26;NID:2048;ConaxIrdeto 2;tv
+RTL Klub HD;Amos 3;V;4.0°W;10842.00;1304;T-Home;DVB-S2;8PSK;"""3/4""";30000;TID:3;NID:100;Conax;tv
+RTL Hrvatska  ;Eutelsat 16A;H;16.0°E;11678.25;291;Max TV;DVB-S2;8PSK;"""3/4""";30000;TID:3;NID:64;ConaxNagravision 3;tv
+RTL Television  ;Intelsat 12 (IS-12);V;45.0°E;11673.00;323;Vivacom;DVB-S2;8PSK;"""3/4""";30000;TID:4;NID:213;VideoGuard;tv
+RTL Television  ;Amos 3;V;4.0°W;10889.00;1613;T-Home;DVB-S2;8PSK;"""3/4""";30000;TID:6;NID:100;Conax;tv
