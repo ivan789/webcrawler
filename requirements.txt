@@ -34,7 +34,7 @@ numpy==1.12.0
 olefile==0.44
 packaging==16.8
 perf==0.1
-Pillow==4.0.0
+Pillow==6.2.0
 psycopg2==2.6.2
 pycosat==0.6.1
 pycurl==7.19.0
